@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/sign up.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <script src="../js/rem.js"></script>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/zepto.js"></script>
+</head>
+<body>  
+    <div class="head">
+        <div class="left"> 
+            <span>
+                <a href="sign in.html"> < </a>
+            </span>
+        </div>
+        <div class="login">
+            <span>注册</span>
+        </div>
+        <div class="logu">
+           
+        </div>
+    </div>
+    <div class="Principal">
+        <div class="controlinput">
+            <span>国家/地区</span>&nbsp;&nbsp;&nbsp;&nbsp; <input class="control" type="text" placeholder="中国大陆 +86">
+        </div>
+        <div class="xian"></div>
+        <div class="controlinput d">
+            <span>手机号</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="control ipone" type="text" placeholder="常用手机号">
+            <div class="x">
+                x
+            </div>
+        </div>
+        <div class="xian"></div>
+        <div class="controlinput yan">
+            <span>验证码</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="control num" type="text" placeholder="短信验证码">
+            <div class="time">
+                获取验证码
+            </div>
+        </div>
+        <div class="xian"></div>
+        <div class="controlinput yan">
+            <span>设置密码</span>&nbsp;&nbsp;&nbsp;&nbsp;  <input class="control password" type="password" placeholder="6-12位大小写字母，数字">
+            <div class="xq">
+                x
+            </div>
+        </div>
+        <div class="xian"></div>
+    </div>
+    <div class="logup">
+       <span>注册</span>
+    </div>
+    <div class="c">
+        <div></div>
+        <div class="cx">
+            <span>重新发送</span>
+        </div>
+    </div>
+    <div class="dt">
+        <div></div>
+        <div class="dtime" >
+            <span></span>
+        </div>
+    </div>
+    <script>
+        var Number
+        $('.x').click(function(){
+            $('.ipone').val('')
+        });
+        $('.xq').click(function(){
+            $('.password').val('')
+        });
+        $('.time').click(function(){
+            Number = parseInt(Math.random()*1000000)
+            console.log(Number)
+            // num = $('.num').val()
+            // console.log(num)
+        });
+         //验证手机号
+
+        $('.logup').click(function(){
+            var phone = $(".ipone").val();
+            // console.log($(".ipone").val())
+            var flag = false;
+            var message = "";
+            var myreg = /^(((13[0-9]{1})|(14[0-9]{1})|(17[0]{1})|(15[0-3]{1})|(15[5-9]{1})|(18[0-9]{1}))+\d{8})$/;    
+            if($(".ipone").val() == ""){
+                alert("手机号码不能为空！");
+            }else if(phone.length !=11){
+                alert("请输入有效的手机号码！");
+            }else if(!myreg.test(phone)){
+                alert("请输入有效的手机号码！")
+            // }else{
+            //     flag = true;
+            }
+            if(!flag){
+                //提示错误效果
+                
+            }else{
+                //提示正确效果
+                
+            }
+            return flag;
+        })
+        $('.logup').click(function(){
+            num =parseInt($('.num').val())
+            Number = parseInt(Math.random()*1000000)
+            if ($('.num').val() == "") {
+                alert('验证码不能为空')
+            } else {
+                if (Number = $('.num').val().replace(/\ +/g,"")) {
+                    alert('注册成功')
+                } else {
+                    alert('验证码错误')
+                }
+            }
+            // function isnull(val) {  
+            //     var str = val.replace(/(^\s*)|(\s*$)/g, '');//去除空格;  
+            //     if (str == '' || str == undefined || str == null) {  
+            //     alert('请输入手机号')  
+            //     } else {  
+            //     num =parseInt($('.num').val())
+            //     if (num==Number) {  
+            //     alert('55')  
+            //     } else{  
+            //     alert('验证码错误')  
+            //     }  
+            //     }  
+            //     }  
+        })
+        $('.logup').click(function(){
+            if ($('.password').val() == "") {
+                alert('密码不能为空')
+            } else {
+                alert("注册成功")
+            }
+        })
+        var time = 60
+        $(function(){
+            $('.cx').click(function(){
+                if (time = 60) {
+                    var timer1 = setInterval(function(){
+                        if (time == 0) {
+                            time = 60
+                            clearInterval(timer1)
+                        } else {
+                            time--
+                            $('.dtime').html("("+time+")s")
+                        }
+                    },1000)
+                } 
+            })
+        })
+    </script>
+</body>
+</html>

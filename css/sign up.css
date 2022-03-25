@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    margin: auto;
+    width: 90%;
+    height: 1rem;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    line-height: 1rem;
+}
+.login{
+    font-size: 18px;
+}
+.left a{
+    text-decoration: none;
+}
+.Principal{
+    margin: auto;
+    margin-top: 1rem;
+    /* height: 1rem; */
+    /* background-color: gold; */
+}
+.controlinput{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 0.8rem;
+    color: gray;
+    font-size: 0.28rem;
+}
+.control{
+    outline: none;
+    border: 0;
+    width: 3rem;
+    height: 0.5rem;
+}
+.xian{
+    margin: auto;
+    width: 90%;
+    height: 0.02rem;
+    background-color: gray;
+}
+.d{
+    position: relative;
+}
+.x{
+    position: absolute;
+    right: 0.5rem;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-color: gray;
+    border-radius:50% ;
+    line-height: 0.2rem;
+    text-align: center;
+    color: white;
+}
+.yan{
+    position: relative;
+}
+.time{
+    position: absolute;
+    right: 0.3rem;
+    width: 1.3rem;
+    height: 0.6rem;
+    background-color: gray;
+    border-radius: 0.2rem;
+    color: white;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.password{
+    width: 5rem;
+    /* background-color: aqua; */
+}
+.xq{
+    position: absolute;
+    right: 0.8rem;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-color: gray;
+    border-radius:50% ;
+    line-height: 0.2rem;
+    text-align: center;
+    color: white;
+}
+.logup{
+    width: 90%;
+    margin: auto;
+    height: 1rem;
+    background-color: #F7C612;
+    margin-top:1rem;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.4rem;
+}
+.c{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.cx{
+    width: 1.4rem;
+    height: 0.6rem;
+    background-color: gray;
+    text-align: center;
+    line-height: 0.6rem;
+    border-radius: 10px;
+    margin-top: 0.3rem;
+    color: white;
+}
+.dt{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.dtime{
+    width: 1.4rem;
+    height: 0.6rem;
+    background-color: gray;
+    text-align: center;
+    line-height: 0.6rem;
+    border-radius: 10px;
+    margin-top: 0.1rem;
+    color: white;
+}
