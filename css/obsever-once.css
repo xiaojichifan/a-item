@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul，li{
+    display: block;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+head{
+    width: 100%;
+    height: 1.3333rem;
+    background-color: blue;
+}
+.head-link{
+  width: 100%;
+  height: .5333rem;
+  background-color: blue;
+}
+.h-lin{
+   width: 70%;
+   height: .5333rem;
+   float: left;
+   background-color: blue;
+}
+.h-lin p{
+    font-size: .1867rem;
+    margin-left: .2667rem;
+    color: #fff;
+    margin-top: .0667rem;
+}
+.h-lin span{
+    margin-left: .2667rem;
+}
+.h-line{
+  float: right ;
+  background-color: blue;
+  height: .5333rem;
+  width: 30%;
+}
+.h-line .icon{
+    color: #fff;
+    margin-left: .0667rem;
+    font-size: .2267rem;
+    margin-top: .0667rem;
+}
+.text-time{
+    float: right;
+    color: #fff;
+    font-size: .2267rem;
+    margin-right: .1333rem;
+    margin-top: .0667rem;
+}
+.head-box{
+    width: 100%;
+    height: .8rem;
+    background-color: blue; 
+}
+.head-box span {
+    float: left;
+    width: 30%;
+    height: .8rem;
+    color: #fff;
+    font-size: .3333rem;
+    margin-left: .2667rem;
+    margin-top: .0667rem;
+}
+.tex{
+float: right;
+color: #fff;
+font-size: .2667rem;
+width: 60%;
+height: .8rem;
+}
+.hes-cen{
+    width: 100%;
+    height: .4rem;
+    clear: both;
+}
+.hes-cen p{
+   font-size: .24rem;
+   float: left;
+   margin-left: .2667rem;
+}
+.xian{
+    width: .0133rem;
+    height: 4rem;
+    border-left: .0133rem solid  gainsboro ;
+    margin-left: .4rem;
+    margin-top: .1333rem;
+    position: relative;
+}
+.xian img{
+    position: absolute;
+    width: .4rem;
+    height: .4rem;
+    top: 0%;
+    left: -0.16rem;
+}
+.xian-w{
+    position: absolute;
+    width: .4rem;
+    height: .4rem;
+    top: 2rem;
+    left: 0;
+}
+.xian-t{
+    position: absolute;
+    width: .4rem;
+    height: .4rem;
+    top: 4rem;
+    left: 0;
+}
+.text-wan{
+   width: 65%;
+   height: 1.6rem;
+ 
+   border: .0133rem solid gainsboro;
+   position: relative;
+   left: 1.3333rem;
+   top: -4rem;
+}
+.wan-j{
+    width: 70%;
+    height: 1.6rem;
+    position: absolute;
+    
+}
+.wan-j p{
+    margin-top: .1333rem;
+  font-size: .0133rem;
+  color: #666666;
+}
+.col{
+    color: orange;
+}
+.col-p{
+    color: #666666;
+}
+.wan-p{
+    width: 30%;
+    height: 1.6rem;
+    position: relative;
+}
+.wan-p img{
+   
+    height: 1.6rem;
+    position: absolute;
+    top: 0;
+    left: 3.0533rem;
+}
+.text-wan-r{
+    width: 65%;
+    height: 1.6rem;
+    border: .0133rem solid gainsboro;
+    position: relative;
+    left: 1.3333rem;
+    top: -3.7333rem;
+ }
+ .text-wan-u{
+    width: 65%;
+    height: 1.6rem;
+    border: .0133rem solid gainsboro;
+    position: relative;
+    left: 1.3333rem;
+    top: -3.4667rem;
+ }
+ .hes-cen-t{
+    width: 100%;
+    height: .4rem;
+    clear: both;
+    position: relative;
+}
+.hes-cen-t p{
+    top: -2.9333rem;
+    position: absolute;
+   font-size: .24rem;
+   float: left;
+   margin-left: .2667rem;
+}
+.xian-g{
+    width: .0133rem;
+    height: 4rem;
+    margin-left: .4rem;
+    margin-top: .1333rem;
+    position: relative;
+}
+.xian-g img{
+    position: absolute;
+    width: .4rem;
+    height: .4rem;
+    left: -0.16rem;
+    top: -2.9333rem;
+}
+.text-wan-f{
+    width: 65%;
+    height: 1.6rem;
+    border: .0133rem solid gainsboro;
+    position: relative;
+    left: 1.3333rem;
+    top: -350px;
+ }
+ .hes-cen-w{
+    width: 100%;
+    height: .4rem;
+    clear: both;
+    position: relative;
+}
+.hes-cen-w p{
+   top: -6rem;
+    position: absolute;
+   font-size: .24rem;
+   float: left;
+   margin-left: .2667rem;
+}
+.xian-ll{
+    width: .0133rem;
+    height: 4rem;
+    border-left: .0133rem solid  gainsboro ;
+    margin-left: .4rem;
+    margin-top: .1333rem;
+    position: relative;
+    top: -6rem;
+}
+.xian-ll img{
+    position: absolute;
+    width: .4rem;
+    height: .4rem;
+    left: -0.16rem;
+}
+.text-wan-as{
+    width: 65%;
+    height: 1.6rem;
+    border: .0133rem solid gainsboro;
+    position: relative;
+    left: 1.3333rem;
+    top: -10rem;
+ }
+ 
+ .text-wan-r-yu{
+     width: 65%;
+     height: 1.6rem;
+     border: .0133rem solid gainsboro;
+     position: relative;
+     left: 1.3333rem;
+     top: -9.3333rem;
+  }
+  .text-wan-u{
+     width: 65%;
+     height: 1.6rem;
+     border: .0133rem solid gainsboro;
+     position: relative;
+     left: 1.3333rem;
+     top: -3.4667rem;
+  }
+.foot{
+    width: 100%;
+    height: 1.0667rem;
+   clear: both;
+}
+.foot-b{
+    width: 25%;
+    height: 1.0667rem;
+    float: left;
+}
+.foot-b span{
+   margin-left: .6667rem;
+   margin-top: .0667rem;
+   font-size: .4rem;
+}
+.foot-b p{
+   text-align: center;
+   margin-top: .0667rem;
+   color: gainsboro;
+   font-size: .16rem;
+}
+.foot-jk{
+    width: 25%;
+    height: 1.0667rem;
+    float: left;
+}
+.foot-jk span{
+    margin-left: .6667rem;
+    margin-top: .0667rem;
+    font-size: .4rem;
+ }
+
+.foot-jk p{
+    text-align: center;
+    margin-top: .0667rem;
+    color: gainsboro;
+    font-size: .16rem;
+}
