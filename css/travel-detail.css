@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 6.3333rem /* 400px -> 5.3333rem */;
+}
+.header img{
+    width: 100%;
+    height: 6.3333rem /* 400px -> 5.3333rem */;
+}
+.zi{
+    font-size: .5rem /* 30px -> .4rem */;
+    color: #212121;
+    margin-left: .2667rem /* 20px -> .2667rem */;
+    margin-right: .2667rem /* 20px -> .2667rem */;
+    font-weight:6.6667rem /* 500px -> 6.6667rem */;
+}
+.tubiao{
+    margin-left: .2667rem /* 20px -> .2667rem */;
+    margin-right: .2667rem /* 20px -> .2667rem */;
+    width: 24%;
+    height: .6rem /* 30px -> .4rem */;
+    margin-top: .1333rem /* 10px -> .1333rem */;
+    position: relative;
+    overflow: hidden;
+}
+.tubiao img{
+    position: absolute;
+    left:-0.1333rem /* -10px -> -0.1333rem */;
+    top: -4rem /* -30px -> -0.4rem */;
+}
+.num-wenzi{
+    width: 100%;
+    height: 2.6667rem /* 200px -> 2.6667rem */;
+}
+.num-wenzi img{
+    width: 100%;
+    height: 10.9667rem /* 500px -> 6.6667rem */
+}
+.da-a{
+    width: 100%;
+    height: 1.7rem /* 60px -> .8rem */;
+    margin-top: 8.0667rem /* 500px -> 6.6667rem */;
+}
+.num-a1{
+    float: left;
+    width: 33%;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    text-align: center;
+    font-size: .4rem /* 30px -> .4rem */;
+    color: #666666;
+    font-weight: .6667rem /* 50px -> .6667rem */;
+}
+.num-tu{
+    width: 100%;
+    height: 20rem /* 600px -> 8rem */;
+}
+.num-tu img{
+    width: 100%;
+    height: 20rem /* 600px -> 8rem */;
+    position: absolute;
+    top: 20.5667rem /* 500px -> 6.6667rem */;
+    left: 0;
+}
+
+.aa1{
+    color: #1ab2db;
+}
+.end{
+    position: fixed;
+    bottom: -0.1333rem /* -10px -> -0.1333rem */;
+    width: 100%;
+    height: .6667rem /* 50px -> .6667rem */;
+}
+.end img{
+    position: fixed;
+    bottom:0 /* -10px -> -0.1333rem */;
+    width: 100%;
+    height: 1.1667rem /* 50px -> .6667rem */;
+}
