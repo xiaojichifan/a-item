@@ -184,3 +184,7 @@
     text-align: center;
     line-height: 0.8rem;
 }
+a{
+    text-decoration: none;
+    color: white;
+}

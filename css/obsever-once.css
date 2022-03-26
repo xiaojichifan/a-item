@@ -295,3 +295,7 @@ height: .8rem;
     color: gainsboro;
     font-size: .16rem;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
