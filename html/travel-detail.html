@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/travel-detail.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <script src="../js/rem.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/zepto.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="../img/6.png" alt="">
+
+    </div>
+    <p class="zi">海南三亚五月四晚半自助游（5钻）【壕减3000】喜来登品牌海景房</p>
+    <div class="tubiao">
+        <img src="../img/sprites.png" alt="">
+    </div>
+    <div class="num-wenzi">
+       <img src="../img/24.png" alt="">
+    </div>
+    <div class="da-a">
+        <div class="num-a1 aa1">
+            产品特色
+        </div>
+        
+        <div class="num-a1"> 
+            行程详情
+        </div>
+        <div class="num-a1">
+            预订须知
+        </div>
+    </div>
+    <div class="tu">
+        <div class="num-tu">
+            <img src="../img/25 (1).jpg" alt="">
+        </div>
+        <div class="num-tu">
+            <img src="../img/26 (1).jpg" alt="">
+        </div>
+        <div class="num-tu">
+            <img src="../img/27.jpg" alt="">
+        </div>
+
+    </div>
+    <div class="end">
+        <img src="../img/00.png" alt="">
+    </div>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script>
+
+        $('.num-tu').eq(0).show().siblings().hide()
+     $('.num-a1').click(function(){
+         $('.num-tu').eq($(this).index()).show().siblings().hide()
+         $(this).addClass('aa1').siblings().removeClass('aa1')
+     })
+     
+
+    </script>
+</body>
+</html>
